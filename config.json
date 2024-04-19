@@ -1,126 +1,119 @@
-[
-  {
-    "_id": {
-      "$oid": "65e885edb788fd041625f5b8"
-    },
-    "projectId": "5f9a1c7b0a4e6b0017a3d8a1",
-    "serviceName": "Hss_auth",
-    "podCountRequired": 1,
-    "podCPU": 1,
-    "podRAM": 4,
-    "totalPodCPU": 1,
-    "totalPodRAM": 4
-  },
-  {
-    "_id": {
-      "$oid": "65e885edb788fd041625f5b3"
-    },
-    "projectId": "5f9a1c7b0a4e6b0017a3d8a1",
-    "serviceName": "Udm_uecm",
-    "podCountRequired": 6,
-    "podCPU": 2,
-    "podRAM": 8,
-    "totalPodCPU": 12,
-    "totalPodRAM": 48
-  },
-  {
-    "_id": {
-      "$oid": "65e885edb788fd041625f5b7"
-    },
-    "projectId": "5f9a1c7b0a4e6b0017a3d8a1",
-    "serviceName": "DiameterLB",
-    "podCountRequired": 1,
-    "podCPU": 4,
-    "podRAM": 16,
-    "totalPodCPU": 4,
-    "totalPodRAM": 16
-  },
-  {
-    "_id": {
-      "$oid": "65e885edb788fd041625f5b4"
-    },
-    "projectId": "5f9a1c7b0a4e6b0017a3d8a1",
-    "serviceName": "Hss_ims",
-    "podCountRequired": 1,
-    "podCPU": 2,
-    "podRAM": 8,
-    "totalPodCPU": 2,
-    "totalPodRAM": 8
-  },
-  {
-    "_id": {
-      "$oid": "65e885edb788fd041625f5b2"
-    },
-    "projectId": "5f9a1c7b0a4e6b0017a3d8a1",
-    "serviceName": "Ausf_ueAuth",
-    "podCountRequired": 35,
-    "podCPU": 2,
-    "podRAM": 8,
-    "totalPodCPU": 70,
-    "totalPodRAM": 280
-  },
-  {
-    "_id": {
-      "$oid": "65e885edb788fd041625f5b6"
-    },
-    "projectId": "5f9a1c7b0a4e6b0017a3d8a1",
-    "serviceName": "Reg_trigger",
-    "podCountRequired": 1,
-    "podCPU": 1,
-    "podRAM": 4,
-    "totalPodCPU": 1,
-    "totalPodRAM": 4
-  },
-  {
-    "_id": {
-      "$oid": "65e885edb788fd041625f5b5"
-    },
-    "projectId": "5f9a1c7b0a4e6b0017a3d8a1",
-    "serviceName": "HTTPLB",
-    "podCountRequired": 3,
-    "podCPU": 4,
-    "podRAM": 16,
-    "totalPodCPU": 12,
-    "totalPodRAM": 48
-  },
-  {
-    "serviceName": "bss",
-    "podCountRequired": 1,
-    "podCPU": 1,
-    "podRAM": 2,
-    "totalPodCPU": 19,
-    "totalPodRAM": 1
-  },
-  {
-    "serviceName": "MyService",
-    "podCountRequired": 3,
-    "podCPU": 2,
-    "podRAM": 4,
-    "totalPodCPU": 6,
-    "totalPodRAM": 12
-  },
-  {
-    "serviceName": "Service1",
-    "podCountRequired": 3,
-    "podCPU": 2,
-    "podRAM": 4,
-    "totalPodCPU": 6,
-    "totalPodRAM": 12
-  },
-  {
-    "serviceName": "Service1",
-    "podCountRequired": 3,
-    "podCPU": 2,
-    "podRAM": 4,
-    "totalPodCPU": 6,
-    "totalPodRAM": 12
-  },
-  {
-    "serviceName": "Service2",
-    "podCountRequired": 3,
-    "podCPU": 2,
-    "podRAM": 4,
-    "totalPodCPU": 6,
-    "totalPodRAM": 12
-  }
-]
+[{
+  "serviceLibrary": "Supporting Services",
+  "serviceName": "DiameterLB",
+  "vCPU": 4,
+  "RAM": 16,
+  "TPS": 10000
+},
+{
+  "serviceLibrary": "AUSF",
+  "serviceName": "Ausf_ueAuth",
+  "vCPU": 2,
+  "RAM": 8,
+  "TPS": 1000
+},
+{
+  "serviceLibrary": "HSS",
+  "serviceName": "Hss_lte",
+  "vCPU": 2,
+  "RAM": 8,
+  "TPS": 1200
+},
+{
+  "serviceLibrary": "AUSF",
+  "serviceName": "Ausf_niddau",
+  "vCPU": 1,
+  "RAM": 4,
+  "TPS": 800
+},
+{
+  "serviceLibrary": "UDM",
+  "serviceName": "Udm_uecm",
+  "vCPU": 2,
+  "RAM": 8,
+  "TPS": 1200
+},
+{
+  "serviceLibrary": "Supporting Services",
+  "serviceName": "Lawful Interception",
+  "vCPU": 1,
+  "RAM": 4,
+  "TPS": 5000
+},
+{
+  "serviceLibrary": "UDM",
+  "serviceName": "Udm_sdm",
+  "vCPU": 2,
+  "RAM": 8,
+  "TPS": 800
+},
+{
+  "serviceLibrary": "UDM",
+  "serviceName": "Udm_ueauth",
+  "vCPU": 2,
+  "RAM": 8,
+  "TPS": 1000
+},
+{
+  "serviceLibrary": "EIR",
+  "serviceName": "EIR_deviceCheck",
+  "vCPU": 2,
+  "RAM": 8,
+  "TPS": 3000
+},
+{
+  "serviceLibrary": "UDM",
+  "serviceName": "Udm_sidf",
+  "vCPU": 1,
+  "RAM": 4,
+  "TPS": 2000
+},
+{
+  "serviceLibrary": "HSS",
+  "serviceName": "Hss_ims",
+  "vCPU": 2,
+  "RAM": 8,
+  "TPS": 1200
+},
+{
+  "serviceLibrary": "Supporting Services",
+  "serviceName": "HTTPLB",
+  "vCPU": 4,
+  "RAM": 16,
+  "TPS": 20000
+},
+{
+  "serviceLibrary": "HLR",
+  "serviceName": "Hlr_callp",
+  "vCPU": 2,
+  "RAM": 8,
+  "TPS": 1200
+},
+{
+  "serviceLibrary": "Supporting Services",
+  "serviceName": "Reg_trigger",
+  "vCPU": 1,
+  "RAM": 4,
+  "TPS": 12000
+},
+{
+  "serviceLibrary": "HLR",
+  "serviceName": "Hlr_auth",
+  "vCPU": 1,
+  "RAM": 4,
+  "TPS": 2000
+},
+{
+  "serviceLibrary": "Supporting Services",
+  "serviceName": "SS7LB",
+  "vCPU": 4,
+  "RAM": 16,
+  "TPS": 10000
+},
+{
+  "serviceLibrary": "HSS",
+  "serviceName": "Hss_auth",
+  "vCPU": 1,
+  "RAM": 4,
+  "TPS": 2000
+}]
