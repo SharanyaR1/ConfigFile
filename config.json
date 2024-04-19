@@ -98,5 +98,21 @@
     "podRAM": 4,
     "totalPodCPU": 6,
     "totalPodRAM": 12
+  },
+  {
+    "serviceName": "Service1",
+    "podCountRequired": 3,
+    "podCPU": 2,
+    "podRAM": 4,
+    "totalPodCPU": 6,
+    "totalPodRAM": 12
+  },
+  {
+    "serviceName": "Service1",
+    "podCountRequired": 3,
+    "podCPU": 2,
+    "podRAM": 4,
+    "totalPodCPU": 6,
+    "totalPodRAM": 12
   }
 ]
