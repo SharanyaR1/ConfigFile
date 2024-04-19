@@ -90,5 +90,13 @@
     "podRAM": 2,
     "totalPodCPU": 19,
     "totalPodRAM": 1
+  },
+  {
+    "serviceName": "MyService",
+    "podCountRequired": 3,
+    "podCPU": 2,
+    "podRAM": 4,
+    "totalPodCPU": 6,
+    "totalPodRAM": 12
   }
 ]
